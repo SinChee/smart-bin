@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 200px;
+        }
+    </style>
+    <style>
+            body {
+              font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            .navbar {
+              overflow: hidden;
+              background-color: #333;
+            }
+            
+            .navbar a {
+              float: left;
+              font-size: 16px;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+            
+            .dropdown {
+              float: left;
+              overflow: hidden;
+            }
+            
+            .dropdown .dropbtn {
+              font-size: 16px;  
+              border: none;
+              outline: none;
+              color: white;
+              padding: 14px 16px;
+              background-color: inherit;
+              font-family: inherit;
+              margin: 0;
+            }
+            
+            .navbar a:hover, .dropdown:hover .dropbtn {
+              background-color: green;
+            }
+            
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: #f9f9f9;
+              min-width: 160px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+            
+            .dropdown-content a {
+              float: none;
+              color: black;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+              text-align: left;
+            }
+            
+            .dropdown-content a:hover {
+              background-color: #ddd;
+            }
+            
+            .dropdown:hover .dropdown-content {
+              display: block;
+            }
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+</head>
+
+<body>
+    <div class="navbar">
+                <a href="index.html">Home</a>
+                <a href="profile.html">Profile</a>
+                <div class="dropdown">
+                  <button class="dropbtn">Projects 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="#">Smart Waste Classification</a>
+                    <a href="#">Dating App</a>
+                  </div>
+                </div> 
+    </div>
+    <img src="me1.jpg" alt="Paris" height=300px class="center">
+    <div class="card">
+        <div class="card-body" style="background-color:black;">
+            <h1><font color="Green">Basic Information</font></h1>
+        </div>
+        <div class="card-body" style="background-color:lightgrey;">
+            <p>
+                Name:      Chin Sin Chee
+            </p>
+            <p>
+                Age:       21
+            </p>
+            <p>
+                Education: 3rd Year Electrical Engineering / University Malaya
+            </p>
+            <a>Email: </a>
+            <a href="mailto:imsinchee@gmail.com">imsinchee@gmail.com</a>
+            <p></p>
+            <a>LinkedIn: </a>
+            <a href="https://www.linkedin.com/in/sc-chin-01151098378/" target="_blank">Sin Chee Chin</a>
+        </div>
+    </div>
+
+
+</body>
