@@ -1,38 +1,82 @@
-## Welcome to GitHub Pages
-https://sinchee.github.io/smart-bin/
+# Jquery Line Progress Bar
+A light weight jquery progressbar plugin
 
-You can use the [editor on GitHub](https://github.com/SinChee/smart-bin/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+![](https://img.shields.io/github/license/kingrayhan/LineProgressbar.svg)
+![](https://img.shields.io/github/issues-raw/kingrayhan/LineProgressbar.svg?style=plastic)
+![](https://img.shields.io/github/last-commit/kingrayhan/LineProgressbar.svg)
+![](https://img.shields.io/github/languages/code-size/kingrayhan/LineProgressbar.svg)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Demos and Docs
+https://kingrayhan.github.io/LineProgressbar/
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+##### Include
+```
+<!-- In header -->
+<link rel="stylesheet" href="jquery.lineProgressbar.css">
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+<!-- In footer -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="jquery.lineProgressbar.min.js"></script>
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+<br>
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SinChee/smart-bin/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Jquery Options method
 
-### Support or Contact
+##### Set HTML
+You don't need any special markup. All you need is to give a `class` or `id` selector to a `div`. 
+```
+<div id="progressbar1"></div>
+```
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<br>
+
+##### Call the plugin
+Now call the Line Progress Bar initializer function and your progress bar is ready.
+```
+$('#progressbar1').LineProgressbar();
+```
+
+### [All Jquery Options](https://kingrayhan.github.io/LineProgressbar/options.html)
+### [Demo](https://kingrayhan.github.io/LineProgressbar/jquery-options-demo.html)
+
+---
+<br>
+<br>
+<br>
+
+
+### Data Attribute method <img src="https://kingrayhan.github.io/LineProgressbar/assets/images/new.GIF" />
+
+You don't need to provide any options in this method, all you need just to put data attributes
+
+```
+<div 
+    line-progressbar 
+    data-percentage="25" 
+    data-progress-color="#1abc9c"></div>
+```
+
+### [All Data attributes](https://kingrayhan.github.io/LineProgressbar/data-attributes.html)
+### [Demo](https://kingrayhan.github.io/LineProgressbar/data-attrs-demo.html)
+
+
+<br>
+<br>
+<br>
+<br>
+
+# FAQ
+
+**Can I use it for free?** _Answer_: Yes
+
+**Can I use it for commerce project?** _Answer_: Yes
+
+**Has it any licence?** _Answer_: Yes , it's under **MIT LICENCE**. [Check here](https://github.com/kingRayhan/LineProgressbar/blob/master/LICENSE)
+
+**Can i ask for a new functionality?** _Answer_: Yes! Go to Github [issues page](https://github.com/kingRayhan/LineProgressbar/issues) and ask for a feature.
+
+**What's new in latest release?** _Answer_: See Changelog.
